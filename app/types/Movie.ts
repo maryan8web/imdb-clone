@@ -1,4 +1,6 @@
 export interface Movie {
+  first_air_date: string;
+  name: string;
   adult: boolean;
   backdrop_path: string;
   genre_ids: number[];
